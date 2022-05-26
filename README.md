@@ -4,9 +4,9 @@ This repo contains the skeleton code for an application used for pair programmin
 
 The docker/ folder contains a docker-compose file for setting up a local development environment.
 
-The taskapp-client/ folder contains source code for the front-end React application.
+The taskapp-client/ folder contains source code for the front-end React application. It uses [MUI Core](https://mui.com/material-ui/getting-started/installation/) for the UI library.
 
-The taskapp-server/ folder contains source code for the back-end Express application.
+The taskapp-server/ folder contains source code for the back-end Express application which uses PostgreSQL as the database.
 
 ## Setup
 
