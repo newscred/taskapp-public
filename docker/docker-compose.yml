@@ -11,7 +11,6 @@ services:
       - POSTGRES_DB=taskapp
       - POSTGRES_PASSWORD=password
     volumes:
-      - pg_data:/var/lib/postgresql/data
       - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
   taskapp-server:
     container_name: taskapp_server
@@ -38,5 +37,3 @@ services:
       - '3000:3000'
     volumes:
       - ../taskapp-client/src:/code/src
-volumes:
-  pg_data:

@@ -1,5 +1,5 @@
 CREATE EXTENSION IF NOT EXISTS "pgcrypto";
-CREATE DATABASE IF NOT EXISTS  taskapp_test;
+CREATE DATABASE taskapp_test;
 CREATE SCHEMA IF NOT EXISTS taskapp;
 
 CREATE TYPE userrole AS ENUM ('admin', 'requester', 'worker');
